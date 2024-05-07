@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.form-container {
+    position: relative;
+    margin-top: 20px; /* Adjust margin-top to create space between form and navbar */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 90%; /* Adjust width to fit most screen sizes */
+    max-width: 600px; /* Limit maximum width for smaller screens */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+    .form-container {
+        margin-top: 50px; /* Adjust margin-top for larger screens */
+    }
+
+    .img{
+        height:600px;
+        border-radius: 20px;
+        padding-left: 20px;
+        box-shadow: 0 0 rgb(30, 235, 54);
+    }
+    .registration-image-container{
+        top:0;
+        z-index: 999;
+        display: flex;
+        align-items: start;
+        
+    }
+}
+
+body {
+    padding-bottom: 100px; /* Add padding bottom to accommodate form height */
+}
+
+.Signup {
+    padding-bottom: 100px
+     /* Add padding bottom to prevent overlap with navbar */
+}
+.signup-alert-container {
+    position: absolute;
+    top: 20px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
+    margin-top: 100px;
+}
+
+.registration-card-container{
+    background-color:rgb(237, 129, 34);
+    border-radius:25px;
+    margin-left:50px;
+    margin-right:50px;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-top:10px;
+    }
+
+.img{
+    height:600px;
+    border-radius: 20px;
+    padding-left: 20px;
+    box-shadow: 0 0 rgb(220, 138, 14);
+}
+    
+
+
+
+
+

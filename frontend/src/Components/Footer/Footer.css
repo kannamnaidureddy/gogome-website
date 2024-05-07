@@ -1,0 +1,41 @@
+/* footer.css */
+
+.footer-container {
+    background-color: #ffc107; /* Warning color */
+    padding: 20px 0; /* Add padding */
+  }
+  
+  /* Center the content */
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Style the copyright text */
+  .copyright {
+    margin-bottom: 10px; /* Add some space */
+  }
+  
+  /* Style the social icons */
+  .socials ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .socials li {
+    margin-right: 10px; /* Add space between icons */
+  }
+  
+  /* Style the icon */
+  .socials i {
+    font-size: 24px; /* Adjust size as needed */
+  }
+  
+  /* Apply color to the icon */
+  .socials a {
+    color: #343a40; /* Dark color for icons */
+  }
+  

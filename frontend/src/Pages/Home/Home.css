@@ -1,0 +1,9 @@
+.button-text {
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff; /* Text color */
+}
+
+.button-text:hover {
+    color: #ff0000; /* Text color on hover */
+}

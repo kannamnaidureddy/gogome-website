@@ -1,0 +1,42 @@
+.con-heading{
+  padding-top:120px;
+  text-align:center;
+  font-family:Roboto;
+  font-weight:bold;
+}
+.bg-container{
+  background-color:#fae6fc;
+  height:1200px;
+  width:100vw;
+}
+.inputEle{
+  margin-top:8px;
+  width:300px;
+  padding-left:5px;
+}
+.inputEle-msg{
+  height:80px;
+  margin-top:8px;
+  width:300px;
+  padding-left:5px;
+}
+.btn{
+  margin-top:8px;
+}
+.heading{
+  font-family:Roboto;
+  padding-top:10px;
+  font-weight:bold;
+}
+.part1{
+text-align:center;
+}
+.part2{
+  margin-left:50px;
+  text-align:center;
+  
+}
+
+.submit-button{
+  margin-bottom: 20px;
+}

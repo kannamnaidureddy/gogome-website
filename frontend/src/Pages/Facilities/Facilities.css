@@ -1,0 +1,70 @@
+/* AboutUs.css */
+
+.facilities-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Align items vertically */
+    align-items: center; /* Align items horizontally */
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    width: 90%;
+    max-width: 1110px;
+    position: absolute;
+    top: 50%; /* Position at the vertical center of the page */
+    left: 50%; /* Position at the horizontal center of the page */
+    transform: translate(-50%, -50%); 
+    margin-bottom: 20px;/* Adjust for centering */
+  }
+
+  .facilities-heading{
+    text-align: center;
+  }
+
+  .card-container {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 10px 10px rgba(192, 192, 192, 0.5); /* Add shadow */
+    border-radius: 8px; /* Rounded corners */
+  }
+
+  .card-facilities {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .card-container {
+      width: 90%;
+      padding: 10px;
+    }
+  }
+  
+  .facilities-heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .facilities-description {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .facilities-container {
+      padding: 20px 10px;
+    }
+  
+    .facilities-heading {
+      font-size: 20px;
+      text-align: center;
+    }
+  }

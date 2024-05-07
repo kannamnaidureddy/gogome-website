@@ -1,0 +1,17 @@
+/* App.css */
+.app-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content {
+    flex-grow: 1; /* Content fills remaining space */
+    padding-top: 60px; /* Adjust as needed to create space for the fixed Navbar */
+  }
+  /* App.css */
+  body {
+    margin: 0; /* Remove default body margin */
+    padding-top: 70px; /* Adjust as needed to create space for the fixed Navbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+  }
+  
