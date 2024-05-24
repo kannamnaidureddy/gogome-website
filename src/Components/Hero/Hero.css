@@ -1,0 +1,54 @@
+.hero {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero-text p {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.hero-explore p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.hero-explore .arrow {
+    width: 50px;
+    height: 50px;
+}
+
+.hero-dot-play {
+    margin-top: 30px;
+}
+
+.hero-dots {
+    list-style-type: none;
+    padding: 0;
+}
+
+.hero-dot {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: gray;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.hero-dot.orange {
+    background-color: orange;
+}
+
+.hero-play {
+    margin-top: 20px;
+}
+
+.hero-play button {
+    font-size: 18px;
+}
+
+.hero-play span {
+    margin-left: 10px;
+}
